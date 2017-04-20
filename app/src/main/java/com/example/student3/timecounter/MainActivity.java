@@ -48,6 +48,7 @@ public class MainActivity extends AppCompatActivity {
     public void updateInfo(){
         Chronometer clock = (Chronometer) findViewById(R.id.chronometer);
         clock.setBase(count);
+        clock.start();
     }
 
     public void onClick(View v) {
